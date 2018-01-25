@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Numix-Jade
+Comment=A modern flat theme, Jade Highlights
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Numix-Jade
+IconTheme=Adwaita
+MetacityTheme=Numix-Jade
+ButtonLayout=:minimize,maximize,close
