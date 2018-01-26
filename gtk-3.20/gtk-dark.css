@@ -57,7 +57,7 @@
 /* widget base background color on backdrop windows */
 @define-color theme_unfocused_bg_color #2A3942;
 /* text widgets and the like base background color on backdrop windows */
-@define-color theme_unfocused_base_color #2A3942333;
+@define-color theme_unfocused_base_color #2A3942;
 /* base background color of selections on backdrop windows */
 @define-color theme_unfocused_selected_bg_color #4bec13;
 /* text/foreground color of selections on backdrop windows */
@@ -72,10 +72,10 @@
 @define-color wm_title_unfocused mix(#eee,#2A3942,0.4);
 @define-color wm_icons_focused mix(#eee,#2A3942,0.1);
 @define-color wm_icons_focused_prelight #4bec13;
-@define-color wm_icons_focused_pressed #e91e14;
+@define-color wm_icons_focused_pressed #4BEC13;
 @define-color wm_icons_unfocused mix(#eee,#2A3942,0.4);
 @define-color wm_icons_unfocused_prelight #4bec13;
-@define-color wm_icons_unfocused_pressed #e91e14;
+@define-color wm_icons_unfocused_pressed #4BEC13;
 /**************
  ! GTK settings
 ***************/
@@ -1299,7 +1299,7 @@ headerbar.selection-mode,
 .titlebar:not(headerbar).selection-mode {
   background-color: #4bec13;
   background-image: none;
-  border-color: #e91e14;
+  border-color: #4BEC13;
   color: #fff; }
   headerbar.selection-mode:focus, headerbar.selection-mode:hover,
   .titlebar:not(headerbar).selection-mode:focus,
@@ -1321,7 +1321,7 @@ headerbar.selection-mode,
   headerbar.selection-mode:active:disabled, headerbar.selection-mode:checked:disabled,
   .titlebar:not(headerbar).selection-mode:active:disabled,
   .titlebar:not(headerbar).selection-mode:checked:disabled {
-    border-color: #e91e14; }
+    border-color: #4BEC13; }
   headerbar.selection-mode:disabled,
   .titlebar:not(headerbar).selection-mode:disabled {
     background-color: #ee382f;
@@ -1518,7 +1518,7 @@ headerbar.selection-mode,
       box-shadow: inset -1px 0 rgba(0, 0, 0, 0.12), inset 0 1px rgba(0, 0, 0, 0.07), inset 0 -1px rgba(0, 0, 0, 0.05); }
     headerbar.selection-mode .linked > button:disabled,
     .titlebar:not(headerbar).selection-mode .linked > button:disabled {
-      box-shadow: inset -1px 0 #e91e14; }
+      box-shadow: inset -1px 0 #4BEC13; }
     headerbar.selection-mode .linked > button:last-child, headerbar.selection-mode .linked > button:only-child,
     .titlebar:not(headerbar).selection-mode .linked > button:last-child,
     .titlebar:not(headerbar).selection-mode .linked > button:only-child {
@@ -1744,7 +1744,7 @@ headerbar.selection-mode,
   headerbar.selection-mode .selection-menu:backdrop, headerbar.selection-mode .selection-menu,
   .titlebar:not(headerbar).selection-mode .selection-menu:backdrop,
   .titlebar:not(headerbar).selection-mode .selection-menu {
-    color: #e91e14;
+    color: #4BEC13;
     background-color: transparent;
     background-image: none;
     box-shadow: none;
@@ -4534,7 +4534,7 @@ levelbar block {
     background-color: #4caf50;
     border-color: transparent; }
   levelbar block.full {
-    background-color: #e91e14;
+    background-color: #4BEC13;
     border-color: transparent; }
   levelbar block.empty {
     background-color: transparent;
@@ -4717,9 +4717,9 @@ scrollbar {
     background-clip: padding-box;
     background-color: #23333C; }
     scrollbar slider:hover {
-      background-color: #141414; }
+      background-color: #264142; }
     scrollbar slider:hover:active {
-      background-color: #f4817b; }
+      background-color: #475760; }
     scrollbar slider:backdrop {
       background-color: mix(mix(#ddd,#2A3942,0.5),#2A3942,0.4); }
     scrollbar slider:disabled {
@@ -4729,7 +4729,7 @@ scrollbar {
   scrollbar.vertical slider {
     min-height: 40px; }
   scrollbar.fine-tune slider:active {
-    background-color: #f8aeaa; }
+    background-color: #DDE9E3; }
   scrollbar.overlay-indicator {
     opacity: .8; }
     scrollbar.overlay-indicator:not(.dragging):not(.hovering) {
