@@ -83,7 +83,7 @@
   -GtkWindow-resize-grip-height: 0;
   -GtkWindow-resize-grip-width: 0;
   -WnckTasklist-fade-overlay-rect: 0;
-  outline-color: rgba(240, 84, 76, 0.5);
+  outline-color: rgba(75, 236, 19, 0.5);
   outline-style: dashed;
   outline-width: 1px;
   outline-offset: -1px;
@@ -305,7 +305,7 @@ notebook > header tab button.flat {
     background-image: none;
     box-shadow: none; }
   infobar.info button.close:active, infobar.warning button.close:active, infobar.question button.close:active, infobar.error button.close:active, notebook > header > tabs > arrow:active, notebook > header tab button:active, infobar.info button.close:checked, infobar.warning button.close:checked, infobar.question button.close:checked, infobar.error button.close:checked, notebook > header > tabs > arrow:checked, notebook > header tab button:checked, infobar.info button.close:active:hover, infobar.warning button.close:active:hover, infobar.question button.close:active:hover, infobar.error button.close:active:hover, notebook > header > tabs > arrow:active:hover, notebook > header tab button:active:hover, infobar.info button.close:checked:hover, infobar.warning button.close:checked:hover, infobar.question button.close:checked:hover, infobar.error button.close:checked:hover, notebook > header > tabs > arrow:checked:hover, notebook > header tab button:checked:hover {
-    border: 1px solid rgba(240, 84, 76, 0.2);
+    border: 1px solid rgba(75, 236, 19, 0.2);
     background-color: rgba(255, 255, 255, 0.2);
     background-image: none;
     box-shadow: none; }
@@ -1365,8 +1365,8 @@ headerbar.selection-mode,
       border-color: rgba(0, 0, 0, 0.12); }
     headerbar.selection-mode button.flat,
     .titlebar:not(headerbar).selection-mode button.flat {
-      border-color: rgba(240, 84, 76, 0);
-      background-color: rgba(240, 84, 76, 0);
+      border-color: rgba(75, 236, 19, 0);
+      background-color: rgba(75, 236, 19, 0);
       background-image: none;
       box-shadow: none; }
     headerbar.selection-mode button:focus, headerbar.selection-mode button:hover, headerbar.selection-mode button.flat:focus, headerbar.selection-mode button.flat:hover,
@@ -1603,8 +1603,8 @@ headerbar.selection-mode,
       border-color: rgba(0, 0, 0, 0.12); }
     headerbar.selection-mode button.flat,
     .titlebar:not(headerbar).selection-mode button.flat {
-      border-color: rgba(240, 84, 76, 0);
-      background-color: rgba(240, 84, 76, 0);
+      border-color: rgba(75, 236, 19, 0);
+      background-color: rgba(75, 236, 19, 0);
       background-image: none;
       box-shadow: none; }
     headerbar.selection-mode button:focus, headerbar.selection-mode button:hover, headerbar.selection-mode button.flat:focus, headerbar.selection-mode button.flat:hover,
@@ -4342,7 +4342,7 @@ progressbar.osd {
 scrolledwindow viewport.frame {
   border-style: none; }
 scrolledwindow overshoot.top {
-  background-image: -gtk-gradient(radial, center top, 0, center top, 0.5, to(rgba(240, 84, 76, 0.35)), to(rgba(240, 84, 76, 0.25))), -gtk-gradient(radial, center top, 0, center top, 0.6, from(rgba(240, 84, 76, 0.2)), to(rgba(240, 84, 76, 0)));
+  background-image: -gtk-gradient(radial, center top, 0, center top, 0.5, to(rgba(75, 236, 19, 0.35)), to(rgba(75, 236, 19, 0.25))), -gtk-gradient(radial, center top, 0, center top, 0.6, from(rgba(75, 236, 19, 0.2)), to(rgba(75, 236, 19, 0)));
   background-size: 100% 5%, 100% 100%;
   background-repeat: no-repeat;
   background-position: center top;
@@ -4350,7 +4350,7 @@ scrolledwindow overshoot.top {
   border: 0;
   box-shadow: none; }
   scrolledwindow overshoot.top:backdrop {
-    background-image: -gtk-gradient(radial, center top, 0, center top, 0.5, to(rgba(240, 84, 76, 0.35)), to(rgba(240, 84, 76, 0.25)));
+    background-image: -gtk-gradient(radial, center top, 0, center top, 0.5, to(rgba(75, 236, 19, 0.35)), to(rgba(75, 236, 19, 0.25)));
     background-size: 100% 5%;
     background-repeat: no-repeat;
     background-position: center top;
@@ -4358,7 +4358,7 @@ scrolledwindow overshoot.top {
     border: 0;
     box-shadow: none; }
 scrolledwindow overshoot.bottom {
-  background-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(rgba(240, 84, 76, 0.35)), to(rgba(240, 84, 76, 0.25))), -gtk-gradient(radial, center bottom, 0, center bottom, 0.6, from(rgba(240, 84, 76, 0.2)), to(rgba(240, 84, 76, 0)));
+  background-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(rgba(75, 236, 19, 0.35)), to(rgba(75, 236, 19, 0.25))), -gtk-gradient(radial, center bottom, 0, center bottom, 0.6, from(rgba(75, 236, 19, 0.2)), to(rgba(75, 236, 19, 0)));
   background-size: 100% 5%, 100% 100%;
   background-repeat: no-repeat;
   background-position: center bottom;
@@ -4366,7 +4366,7 @@ scrolledwindow overshoot.bottom {
   border: 0;
   box-shadow: none; }
   scrolledwindow overshoot.bottom:backdrop {
-    background-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(rgba(240, 84, 76, 0.35)), to(rgba(240, 84, 76, 0.25)));
+    background-image: -gtk-gradient(radial, center bottom, 0, center bottom, 0.5, to(rgba(75, 236, 19, 0.35)), to(rgba(75, 236, 19, 0.25)));
     background-size: 100% 5%;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -4374,7 +4374,7 @@ scrolledwindow overshoot.bottom {
     border: 0;
     box-shadow: none; }
 scrolledwindow overshoot.left {
-  background-image: -gtk-gradient(radial, left center, 0, left center, 0.5, to(rgba(240, 84, 76, 0.35)), to(rgba(240, 84, 76, 0.25))), -gtk-gradient(radial, left center, 0, left center, 0.6, from(rgba(240, 84, 76, 0.2)), to(rgba(240, 84, 76, 0)));
+  background-image: -gtk-gradient(radial, left center, 0, left center, 0.5, to(rgba(75, 236, 19, 0.35)), to(rgba(75, 236, 19, 0.25))), -gtk-gradient(radial, left center, 0, left center, 0.6, from(rgba(75, 236, 19, 0.2)), to(rgba(75, 236, 19, 0)));
   background-size: 5% 100%, 100% 100%;
   background-repeat: no-repeat;
   background-position: left center;
@@ -4382,7 +4382,7 @@ scrolledwindow overshoot.left {
   border: 0;
   box-shadow: none; }
   scrolledwindow overshoot.left:backdrop {
-    background-image: -gtk-gradient(radial, left center, 0, left center, 0.5, to(rgba(240, 84, 76, 0.35)), to(rgba(240, 84, 76, 0.25)));
+    background-image: -gtk-gradient(radial, left center, 0, left center, 0.5, to(rgba(75, 236, 19, 0.35)), to(rgba(75, 236, 19, 0.25)));
     background-size: 5% 100%;
     background-repeat: no-repeat;
     background-position: left center;
@@ -4390,7 +4390,7 @@ scrolledwindow overshoot.left {
     border: 0;
     box-shadow: none; }
 scrolledwindow overshoot.right {
-  background-image: -gtk-gradient(radial, right center, 0, right center, 0.5, to(rgba(240, 84, 76, 0.35)), to(rgba(240, 84, 76, 0.25))), -gtk-gradient(radial, right center, 0, right center, 0.6, from(rgba(240, 84, 76, 0.2)), to(rgba(240, 84, 76, 0)));
+  background-image: -gtk-gradient(radial, right center, 0, right center, 0.5, to(rgba(75, 236, 19, 0.35)), to(rgba(75, 236, 19, 0.25))), -gtk-gradient(radial, right center, 0, right center, 0.6, from(rgba(75, 236, 19, 0.2)), to(rgba(75, 236, 19, 0)));
   background-size: 5% 100%, 100% 100%;
   background-repeat: no-repeat;
   background-position: right center;
@@ -4398,7 +4398,7 @@ scrolledwindow overshoot.right {
   border: 0;
   box-shadow: none; }
   scrolledwindow overshoot.right:backdrop {
-    background-image: -gtk-gradient(radial, right center, 0, right center, 0.5, to(rgba(240, 84, 76, 0.35)), to(rgba(240, 84, 76, 0.25)));
+    background-image: -gtk-gradient(radial, right center, 0, right center, 0.5, to(rgba(75, 236, 19, 0.35)), to(rgba(75, 236, 19, 0.25)));
     background-size: 5% 100%;
     background-repeat: no-repeat;
     background-position: right center;
@@ -4585,10 +4585,10 @@ scale {
     border-radius: 2.5px;
     background-color: #4bec13; }
     scale highlight:disabled {
-      background-color: rgba(240, 84, 76, 0.55); }
+      background-color: rgba(75, 236, 19, 0.55); }
   scale fill {
     border-radius: 2.5px;
-    background-color: rgba(240, 84, 76, 0.5); }
+    background-color: rgba(75, 236, 19, 0.5); }
     scale fill:disabled {
       background-color: transparent; }
   scale slider {
@@ -5135,7 +5135,7 @@ rubberband,
 flowbox rubberband,
 treeview.view rubberband {
   border: 1px solid #4bec13;
-  background-color: rgba(240, 84, 76, 0.2); }
+  background-color: rgba(75, 236, 19, 0.2); }
 
 treeview entry:focus:dir(rtl), treeview entry:focus:dir(ltr) {
   background-color: #2A3942;
@@ -5721,7 +5721,7 @@ paned.titlebar {
     background-color: rgba(221, 221, 221, 0.5);
     border-color: rgba(199, 199, 199, 0.5); }
   .disk-space-display.used {
-    background-color: rgba(240, 84, 76, 0.8);
+    background-color: rgba(75, 236, 19, 0.8);
     border-color: rgba(238, 56, 47, 0.8); }
   .disk-space-display.free {
     background-color: #414141;
